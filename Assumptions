@@ -1,0 +1,37 @@
+Linear/Multiple Regression
+  - Linear Relationship between independent and dependent variables.
+  - Multivariate normality (Gaussian Distribution) can be verified using kdeplot.
+  - No or little multicollinearity means no strong linear relationship between 3 or more independent variables even if no pair of variables has a high correlation and can be       verified by VIF.
+  - No Auto-correlation which can be verified using corr().
+  - Homoscedasticity means sequence of random variables if all its random variables have the same finite variance.
+  
+ KNN
+  - No Assumptions
+  - Lazy Learner means algo will not learn anything during trainig phase.
+  - Not suitable for larger datasets.
+ 
+ SVM
+  - Data is independent and identically distributed.
+  - Work well with high dimension datasets.
+  - Not suitable for larger datasets.
+ 
+ Naive Bayes
+  - Variables should be independent of each other.
+  - Work well for larger dimension datasets such as text.
+ 
+ Decision Tree
+  - Need a lot of data to train.
+  - Doesnt required data to be normalized.
+  - Missing values, to an extent, don’t affect its performance much.
+ 
+ Random Forest 
+  - Robust to outliers.
+  - Works good on larger datasets.
+  - Low risk of overfitting.
+ 
+ XgBoost
+  - Can work in parallel.
+  - Can handle missing values.
+  - No need to normalize data.
+  - Hard to tune.
+  - Can cause overfitting.
